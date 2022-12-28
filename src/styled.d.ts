@@ -11,6 +11,7 @@ declare module 'styled-components' {
       secondary: string
       white: string
       purple: string
+      yellow: string
     }
   }
 }

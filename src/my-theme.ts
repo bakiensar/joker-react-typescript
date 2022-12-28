@@ -9,6 +9,7 @@ const myTheme: DefaultTheme = {
     secondary: 'magenta',
     white: '#fff',
     purple: '#53568C',
+    yellow: '#F4E90E',
   },
 }
 

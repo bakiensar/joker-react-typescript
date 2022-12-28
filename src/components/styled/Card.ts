@@ -12,24 +12,24 @@ export const CardWrapper = styled.div<CardProps>`
   width: 650px;
   height: 180px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
-  fontsize: 20px;
+  font-size: 20px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   cursor: pointer;
 `
 export const CardTop = styled.div<CardProps>`
-    text-align:center;
-    background: white;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align:items:center;
-    flex:auto;
+  text-align: center;
+  background: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: auto;
 
-    &:hover {
-        filter: brightness(85%);
-    }
+  &:hover {
+    filter: brightness(85%);
+  }
 `
 export const CardBottom = styled.div<CardProps>`
   background: ${(props) => props.theme.colors.secondary};

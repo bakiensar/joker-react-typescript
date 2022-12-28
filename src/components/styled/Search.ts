@@ -8,9 +8,16 @@ interface SearchProps {
 const Search = styled.input<SearchProps>`
   margin: 10px 15px 10px 0px;
   padding: 10px;
-  width: 15rem;
+  width: 20rem;
   border-radius: 5px;
-  border: 1px solid ${(props) => props.theme.colors.secondary};
+  font-family: 'Rubik Bubbles', cursive;
+  &:focus {
+    outline: none;
+  }
+  border: none;
+  ::placeholder {
+    font-family: 'Rubik Bubbles', cursive;
+  }
 `
 
 export default Search
