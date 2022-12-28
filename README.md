@@ -1,4 +1,4 @@
-# E-commerce React Redux
+# Joke-Project React TypeScript
 
 ## What I Practice
 
